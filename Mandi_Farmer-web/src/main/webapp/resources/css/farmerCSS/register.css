@@ -1,0 +1,135 @@
+           
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+    background-color: yellow;
+    color: green;
+    padding: 8px 10px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+    position: center;
+    bottom: 23px;
+    right: 28px;
+    width: 200px;
+}
+
+
+.naming{
+    colour:black; 
+}
+
+
+
+.btnregistration{
+ 
+    top: 90%;
+
+    background: #400040;
+    font-size: 20px;
+    color: #ffffff;
+    opacity: 0.8;
+    padding: 1px 3px;
+    cursor: pointer;
+}
+#popUpBox{
+    width: 1200px;
+    overflow: hidden;
+    background: grey;
+    box-shadow: 0 0 10px black;
+    opacity: 1;
+    color: black;
+    border-radius: 2px;
+    position: absolute;
+    top: 102%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    padding: 10px;
+    margin: 5px;
+
+    text-align: center;
+    display: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+    background-color: #4CAF50;
+    color: green;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.registerbtn:hover {
+    opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+    color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+.btn-group button {
+    background-color: #4CAF50; /* Green background */
+    border: 1px yellow; /* Green border */
+    color: #000; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+    background-color: #e6b301;
+}

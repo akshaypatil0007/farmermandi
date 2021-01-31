@@ -1,0 +1,63 @@
+@charset "ISO-8859-1";
+
+@media ( min-width : 992px) {
+	#mainNav {
+		padding-top: 0.8rem;
+		padding-bottom: 0.8rem;
+		border: none;
+		background-color: black;
+		transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s
+			ease-in-out;
+	}
+}
+
+.center-head {
+	margin-left: 44%;
+	margin-right: 44%;
+}
+
+tr, th {
+	text-align: center;
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 20px;
+	border-collapse: collapse;
+}
+
+table.center {
+	margin-right: auto;
+}
+
+table {
+	background-color: #00FF7F;
+}
+
+.parentimage {
+	width: 100px;
+	height: 100px;
+	-webkit-transition: all .3s ease-out;
+	-moz-transition: all .3s ease-out;
+	-o-transition: all .3s ease-out;
+	transition: all .3s ease-out;
+}
+
+.parentimage:hover {
+	-moz-transform: scale(3);
+	-webkit-transform: scale(3);
+	-o-transform: scale(3);
+	-ms-transform: scale(3);
+	transform: scale(3);
+}
+
+body {
+	counter-reset: Serial; /* Set the Serial counter to 0 */
+}
+
+table {
+	border-collapse: separate;
+}
+
+tr td:first-child:before {
+	counter-increment: Serial; /* Increment the Serial counter */
+	content: counter(Serial); /* Display the counter */
+}
